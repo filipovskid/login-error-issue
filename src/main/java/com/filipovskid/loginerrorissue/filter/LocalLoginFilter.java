@@ -12,7 +12,6 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 
-@Component
 public class LocalLoginFilter implements Filter {
 
   @Override

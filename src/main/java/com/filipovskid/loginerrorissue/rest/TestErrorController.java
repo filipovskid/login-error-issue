@@ -11,7 +11,7 @@ public class TestErrorController implements ErrorController {
 
   @GetMapping("/error")
   public void error(Principal principal) {
-    // Principal is null.
+    // Principal is set (not null).
     System.out.println("Test");
   }
 }
